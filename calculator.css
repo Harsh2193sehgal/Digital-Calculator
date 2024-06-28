@@ -1,0 +1,77 @@
+*{
+margin: 0;
+padding: 0;
+/* box-sizing: border-box; */
+height: 100%;
+
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 40, 43);
+}
+
+.outer{
+    width: 550px;
+    height: 750px;
+    border: 7px solid white;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+
+.display{
+    width: 475px;
+    border: 3px solid white;
+    background-color: rgb(103, 134, 13);
+    border-radius: 5%;
+    height: 80px;
+    margin-bottom: 10%;
+    margin-top: 3%;
+} 
+.rows{
+    width: 475px;
+    /* border: 2px solid blue; */
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    }
+
+
+.row1{
+    width: 20%;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+
+
+button{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(40, 40, 43);
+    border-style: none;
+    border: 0.5px solid white;
+}
+button:hover{
+    background-color: aqua;
+    background-color: rgb(0, 0, 0);
+}
+
+#braket, #mod, #divide, #X, #minus, #plus, #equals, #C{
+    color: greenyellow;
+    font-size: 50px;
+}
+
+#C{
+    color: red;
+}
